@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <title>Tables</title>
+</head>
+<body>
+    
+    <h1>
+        Basic table 3x3 example
+    </h1>
+    <table>
+        <tr>
+            <td>15</td>
+            <td>15</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>60</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
+    </table> <br><br><hr>
+
+    <h1>
+        Table headers example w/ scope attr.
+    </h1><br>
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets Sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total Sales:</th>
+            <td>$600</td>
+            <td>$675</td>
+        </tr>
+    </table><br><br><hr>
+
+    <h1>
+        Table w/ colspan and rowspan attr.
+    </h1>
+    <table>
+        <tr>
+            <th></th>
+            <th>9 AM</th>
+            <th>10 AM</th>
+            <th>11 AM</th>
+            <th>12 PM</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td rowspan="2">Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+        </tr>
+    </table>
+
+</body>
+</html>
