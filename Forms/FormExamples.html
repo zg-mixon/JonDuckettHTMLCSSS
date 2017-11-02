@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="http://www.example.com/login.php" method="post">
+        <p>
+            Username:
+            <input type="text" name="username" maxlength="30"><br><br>
+            Password:
+            <input type="password" name="pass" maxlength="30"><br><br>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+
+    <form action="test.html">
+        <p>
+            What did you think of the gig?
+        </p>
+        <textarea name="comments" cols="30" rows="10">Enter your comments..</textarea>
+    </form>
+    
+    <form action="~/test.html" method="get">
+        <p>
+            Please select your favorite genre: 
+            <br>
+            <input type="radio" name="Rock" id="" checked="checked">Rock
+            <input type="radio" name="Pop" id="">Pop
+            <input type="radio" name="Jazz" id="">Jazz
+        </p>
+    </form>
+    <br><br>
+
+    <form action="example.html" method="get">
+        <p>
+            Please select your favorite music service(s):
+            <br>
+            <input type="checkbox" name="service" value="itunes" id="">Itunes
+            <input type="checkbox" name="service" value="spotify" id="">Spotify
+            <input type="checkbox" name="service" value="pandora" id="">Pandora
+        </p>
+    </form>
+</body>
+</html>
