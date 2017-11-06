@@ -1,13 +1,33 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 1em;
 }
+
 h1 {
-    font-size: 200%;
+    font-size: 2em;
 }
+
 h2 {
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
+
 .credits {
     font-family: "Courier New", Courier, monospace;
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/** This is an attribute selector. This achieves the same function as .credits. Attribute selectors are useful so that you can match to specific strings and substrings**/
+p[class="credits"] {
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: underline;
 }
